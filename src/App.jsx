@@ -5,7 +5,7 @@ export default function App() {
   const [tasks, setTasks] = useState(() => {
     const saved = localStorage.getItem("flowstate_tasks");
     return saved ? JSON.parse(saved) : [
-      { id: 1, text: "Sabah odaklanma seansı (55°C)", completed: true },
+      { id: 1, text: "Sabah odaklanma seansı ", completed: true },
       { id: 2, text: "Yazılım mimarisi gözden geçirme", completed: false }
     ];
   });
