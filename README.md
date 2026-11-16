@@ -1,16 +1,32 @@
-# React + Vite
+# flowstate — Akıllı Odak ve Görev Yönetim Paneli
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+**flowstate**, günlük odaklanma seanslarını ve öncelikli görevleri tek ekranda takip etmeyi sağlayan, verileri tarayıcı belleğinde (`LocalStorage`) saklayan modern bir görev yönetim uygulamasıdır.
 
-Currently, two official plugins are available:
+## Canlı Uygulama Linki
+- **Canlı Yayın:** https://flowstate-task-manager-zeta.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Ekran Görüntüsü
+<img width="2249" height="1172" alt="203" src="https://github.com/user-attachments/assets/ffcf8b46-1073-47c9-8673-8f6abd819e2b" />
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the Oxlint configuration
+## Özellikler
+- **Hızlı Görev Ekleme:** Odaklanılacak yeni görevleri anında listeye ekleme.
+- **Durum Takibi:** Görev metnine tıklayarak tamamlandı/bekliyor geçişi yapma ve görsel durum ayrımı.
+- **Kalıcı Depolama (`LocalStorage`):** Eklenen ve güncellenen görevlerin sayfa yenilense bile tarayıcıda korunması.
+- **Kayıt Silme:** Tamamlanan veya vazgeçilen görevleri listeden kaldırma.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Kullanılan Teknolojiler
+- **Frontend:** React, Vite, JavaScript (ES6+)
+- **Stil & Tasarım:** Modern CSS (Flexbox, koyu tema arayüz tasarımı)
+- **Veri Saklama:** Web Storage API (`LocalStorage`)
+- **Geliştirme & Yayın Ortamı:** StackBlitz, GitHub, Vercel / Netlify
+
+## Kurulum ve Çalıştırma
+Projeyi yerel bilgisayarınızda çalıştırmak için:
+
+```bash
+git clone [https://github.com/ardatutal/vitejs-vite-gdonuptp.git](https://github.com/ardatutal/vitejs-vite-gdonuptp.git)
+cd vitejs-vite-gdonuptp
+npm install
+npm run dev
