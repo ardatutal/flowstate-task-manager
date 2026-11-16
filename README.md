@@ -6,7 +6,8 @@
 - **Canlı Yayın:** https://flowstate-task-manager-zeta.vercel.app
 
 ## Ekran Görüntüsü
-<img width="2249" height="1172" alt="203" src="[https://github.com/user-attachments/assets/ffcf8b46-1073-47c9-8673-8f6abd819e2b](https://github.com/user-attachments/assets/ffcf8b46-1073-47c9-8673-8f6abd819e2b)" />
+<img width="2249" height="1172" alt="203" src="https://github.com/user-attachments/assets/0a00e360-52dc-4b22-919c-699bd5b3eab6" />
+
 
 ## Özellikler
 - **Hızlı Görev Ekleme:** Odaklanılacak yeni görevleri anında listeye ekleme.
